@@ -9,16 +9,26 @@ This app allows you to encode and decode authentication tokens for multi-tenant 
 - Generates new authentication tokens
 - Hides decoded fields for short tokens (3 fields)
 
+
 ## Usage
 1. Install dependencies:
    ```sh
    pip install -r requirements.txt
    ```
-2. Run the app:
+2. Run the app locally:
    ```sh
    streamlit run streamlit_token_app.py
    ```
 3. Open the provided local URL in your browser.
+
+---
+
+## Live Demo
+
+Access the deployed Streamlit app here:
+[unigalactix-token-gen-base64-streamlit-token-app-ig3q0z.streamlit.app](https://unigalactix-token-gen-base64-streamlit-token-app-ig3q0z.streamlit.app/)
+
+---
 
 ## Token Format
 - **Short Token:** `LoginMasterID&Database_Name&OrgID`
